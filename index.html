@@ -105,8 +105,9 @@
       color: var(--text);
     }
 
+    /* Personal homepage introduction */
     .hero {
-      padding: 95px 0 60px;
+      padding: 75px 0 55px;
       background: radial-gradient(
         ellipse at 65% 10%,
         #163b49 0%,
@@ -129,16 +130,24 @@
       letter-spacing: -.03em;
     }
 
+    /* Smaller, more personal heading */
     h1 {
-      max-width: 790px;
-      font-size: clamp(2.55rem, 6vw, 4.7rem);
-      margin: 14px 0 20px;
+      max-width: 850px;
+      font-size: clamp(2.3rem, 5vw, 3.7rem);
+      margin: 16px 0 14px;
+    }
+
+    .hero .subtitle {
+      color: var(--accent);
+      font-size: clamp(1.15rem, 2.5vw, 1.5rem);
+      font-weight: 650;
+      margin: 0 0 20px;
     }
 
     .hero p {
       max-width: 730px;
       color: var(--muted);
-      font-size: 1.12rem;
+      font-size: 1.08rem;
     }
 
     .actions {
@@ -330,7 +339,7 @@
       }
 
       .hero {
-        padding: 60px 0 40px;
+        padding: 50px 0 38px;
       }
 
       .grid,
@@ -380,7 +389,7 @@
 
   <main id="home">
 
-    <!-- Homepage introduction -->
+    <!-- Personal introduction -->
     <div class="hero">
       <div class="wrap">
 
@@ -388,16 +397,17 @@
           Software Development · Full-Stack · Game Development
         </div>
 
-        <h1>
-          Building thoughtful software, from backend systems
-          to interactive experiences.
-        </h1>
+        <h1>Hi, I'm Jared Borck.</h1>
+
+        <p class="subtitle">
+          Computer Science Student &amp; Software Developer
+        </p>
 
         <p>
-          I'm Jared Borck, a computer science student completing
-          my bachelor's degree at Southern New Hampshire University.
-          My work spans full-stack applications, databases,
-          algorithms, security, and Unity game development.
+          I'm finishing my bachelor's degree in Computer Science
+          at Southern New Hampshire University. I enjoy building
+          full-stack applications, working with backend systems
+          and databases, and developing games using Unity and C#.
         </p>
 
         <div class="actions">
@@ -414,12 +424,7 @@
     </div>
 
 
-    <!--
-      Professional Self-Assessment
-
-      This is the first main portfolio section,
-      as required by CS 499.
-    -->
+    <!-- Professional Self-Assessment -->
     <section id="assessment" aria-labelledby="assessment-title">
       <div class="wrap">
 
@@ -526,7 +531,7 @@
     </section>
 
 
-    <!-- Featured professional and personal projects -->
+    <!-- Featured Projects -->
     <section id="projects" aria-labelledby="projects-title">
       <div class="wrap">
 
@@ -600,7 +605,7 @@
           </article>
 
 
-          <!-- Machine Learning Project -->
+          <!-- Machine Learning -->
           <article class="card">
             <div class="tagline">
               Machine learning
@@ -622,7 +627,7 @@
           </article>
 
 
-          <!-- Android Project -->
+          <!-- Android -->
           <article class="card">
             <div class="tagline">
               Mobile development
